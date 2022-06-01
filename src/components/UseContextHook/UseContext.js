@@ -6,6 +6,7 @@ function UseContext() {
   const [username, setUsername] = useState("");
   return (
     <div>
+      console.log("Hello");
       <Login setUsername={setUsername} />
       <User username={username} />
     </div>

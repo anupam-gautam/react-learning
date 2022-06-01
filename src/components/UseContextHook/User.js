@@ -1,6 +1,5 @@
 import React from "react";
-
-function User({ username }) {
+function User({ usernames }) {
   return (
     <div>
       <h1>User: {username}</h1>

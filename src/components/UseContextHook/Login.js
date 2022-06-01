@@ -1,9 +1,13 @@
 import React from "react";
 
-function Login({ setUsername }) {
+function Login(setUsername) {
   return (
     <div>
-      <input onChange={(e) => setUsername(e.target.value)} />
+      <input
+        onChange={(event) => {
+          setUsername(event.target.value);
+        }}
+      />
     </div>
   );
 }
